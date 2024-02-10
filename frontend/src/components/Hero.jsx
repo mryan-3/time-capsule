@@ -22,6 +22,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='p-6 border-8 border-red-600 flex justify-center items-center sm:h-fit'>
+                <img src={HeroI} className='' />
 
             </div>
         </div>
