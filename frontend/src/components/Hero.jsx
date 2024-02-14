@@ -1,8 +1,7 @@
 import HeroI from '../assets/ba.png'
 const Hero = () => {
   return (
-    <div className='w-full h-screen '>
-      <div className=''>
+    <div className='w-full h-screen mb-6'>
         <div className='flex flex-col justify-center items-center p-4 '>
           <h1 className='text-5xl text-center font-bold p-2 text-[#30494b] font-serif'>
             Time Capsule
@@ -20,10 +19,9 @@ const Hero = () => {
             <div class='absolute inset-0 z-0 h-full w-full rounded-md transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:[box-shadow:5px_5px_#a4ab9a,10px_10px_#dca26d,15px_15px_#5a9c91]'></div>
           </button>
         </div>
-      </div>
 
-      <div className='flex justify-center items-center overflow-hidden '>
-        <img src={HeroI} className='flex-shrink-0 '/>
+      <div className='w-full h-[515px]  '>
+        <img src={HeroI} className='m-auto '/>
       </div>
     </div>
   )

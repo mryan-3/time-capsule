@@ -2,7 +2,7 @@ import OfferCard from './OfferCard'
 
 const Card = () => {
   return (
-    <div className='relative h-screen w-full items-center text-[#e3f6f5] '>
+    <div className=' w-full items-center text-[#e3f6f5] '>
       <div>
         <h3 class='text-center font-bold font-mono text-4xl py-10  text-[#e3f6f5]'>
           What we offer
@@ -16,7 +16,7 @@ const Card = () => {
           <div className='px-2'>
             <OfferCard  icon={"https://img.freepik.com/free-photo/family-photobook-about-easter-easter-card-with-love_493343-29939.jpg?size=626&ext=jpg&ga=GA1.1.1248635370.1707852302&semt=ais"}  title={"Upload Pictures"} description={"Preserve precious memories of life's moments with photos and videos, ensuring they last a lifetime.."}/>
           </div>
-          <div className='px-2 py-2'>
+          <div className='px-2 py-2 '>
             <OfferCard  icon={"https://img.freepik.com/premium-photo/deadline-concept-calendar-with-date-icon-retro-label-design-hipster-background-made-triangles-color-flow-effect_226262-1216.jpg?size=626&ext=jpg&ga=GA1.1.1248635370.1707852302&semt=ais"}  title={"Schedule Delivery"} description={"Choose the exact date and time, virtual or physical, for your time capsule to be ed."}/>
           </div>
           <div className='px-2'>
