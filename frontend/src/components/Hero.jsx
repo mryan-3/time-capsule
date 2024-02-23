@@ -20,9 +20,7 @@ const Hero = () => {
           </button>
         </div>
 
-      <div className='w-full h-[515px]  '>
-        <img src={HeroI} className='m-auto '/>
-      </div>
+        <img src={HeroI} className='mx-auto h-auto '/>
     </div>
   )
 }
